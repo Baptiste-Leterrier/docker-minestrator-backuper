@@ -5,7 +5,7 @@
 # TO_RUN           : docker run -e sftpUsername=<SFTP_USERNAME> -e sftpPassword=<SFTP_PASSWORD> -e sftp=<SFTP_SERVER> -e transfertSpeedLimit=<KILOBIT_SPEED> --rm -v <HOST_PATH>:/output -t -i nlhomme/docker-minestrator-backuper:latest
 ##
 
-FROM alpine:latest
+FROM alpine:3.18.3
 MAINTAINER nlhomme <heir-lychee0p@icloud.com>
 
 # Installing needed tools
